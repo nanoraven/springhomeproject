@@ -1,4 +1,4 @@
-package com.example.hello
+package com.example.blog.hello
 
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.bind.annotation.RequestParam
