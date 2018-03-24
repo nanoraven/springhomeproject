@@ -15,7 +15,6 @@ import org.springframework.context.ConfigurableApplicationContext
 lateinit var context: ConfigurableApplicationContext
 @Controller
 @SpringBootApplication
-@Configuration
 @EnableAutoConfiguration
 class BlogApplication {
     private val log = LoggerFactory.getLogger(BlogApplication::class.java)
@@ -28,7 +27,7 @@ class BlogApplication {
 }
 
 fun main(args: Array<String>) {
-    context = runApplication<BlogApplication>(*args)
+    runApplication<BlogApplication>(*args)
 }
 
 
