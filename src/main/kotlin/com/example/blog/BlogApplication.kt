@@ -16,9 +16,10 @@ class BlogApplication {
         return "Hello World!"
     }
 
-    fun main(args: Array<String>) {
-        runApplication<BlogApplication>(*args)
-    }
+
+}
+fun main(args: Array<String>) {
+    runApplication<BlogApplication>(*args)
 }
 
 
